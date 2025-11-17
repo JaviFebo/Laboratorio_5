@@ -11,7 +11,7 @@ int main (void) {
 	int posicion;
 
 	//InsertarInicio
-	printf ("Prueba de función InsertarInicio:\n");
+	printf ("===Prueba de función InsertarInicio===\n");
 	valor_a_insertar = 10;
 	printf ("Insertar 10 al inicio de una lista vacía\n");
 	InsertarInicio (&cabeza, valor_a_insertar);
@@ -24,7 +24,7 @@ int main (void) {
 	printf ("\n");
 	
 	//InsertarFinal
-	printf ("Prueba de función InsertarFinal:\n");
+	printf ("===Prueba de función InsertarFinal===\n");
 	printf ("Se reinicia lista\n");
 	EliminarNodo (&cabeza, 5);
 	EliminarNodo (&cabeza, 10);
@@ -43,7 +43,7 @@ int main (void) {
 	printf ("\n");
 
 	//InsertarEn
-	printf ("Prueba de función InsertarEn:\n");
+	printf ("===Prueba de función InsertarEn===\n");
 	printf ("Se reinicia lista\n");
         EliminarNodo (&cabeza, 5);
         EliminarNodo (&cabeza, 10);
@@ -85,7 +85,7 @@ int main (void) {
 	printf ("\n");
 	
 	//EliminarNodo
-	printf ("Prueba de función EliminarNodo:\n");
+	printf ("===Prueba de función EliminarNodo===\n");
 	ImprimirLista (cabeza);
 
 	valor_a_eliminar = 1;
@@ -109,7 +109,7 @@ int main (void) {
 	printf ("\n");
 	
 	//BuscarNodo
-	printf ("Prueba de función BuscarNodo:\n");
+	printf ("===Prueba de función BuscarNodo===\n");
 	valor_a_buscar = 15;
 	struct Nodo* encontrado = BuscarNodo (cabeza, valor_a_buscar);
 	printf ("Buscar 15\n");
