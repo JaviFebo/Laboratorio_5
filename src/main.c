@@ -129,6 +129,13 @@ int main (void) {
         else {
                 printf ("Nodo no encontrado\n");
         }
+	printf ("\n");	
 
+	//Destruir lista
+	printf ("===Destruir lista===\n");
+	ImprimirLista (cabeza);
+	EliminarNodo (&cabeza, 5);
+	EliminarNodo (&cabeza, 15);
+	ImprimirLista (cabeza);
 	return 0;
 }
